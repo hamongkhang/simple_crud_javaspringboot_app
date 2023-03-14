@@ -11,4 +11,4 @@ RUN mvn clean package -DskipTests
 FROM openjdk:11-jdk-slim
 # ENV PORT=8080
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","demo.jar"]
+ENTRYPOINT ["java","-jar"]
